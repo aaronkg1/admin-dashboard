@@ -233,7 +233,7 @@ font-weight: bolder;
     box-shadow: 0 3px 2px 2px rgb(198, 197, 197);
     display: flex;
     flex-direction: column;
-    justify-content: spa;
+    justify-content: space-between;
     padding: 2em;
     gap: 30px;
     
