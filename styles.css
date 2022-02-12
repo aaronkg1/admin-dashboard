@@ -385,4 +385,5 @@ h2 {
 
 .card:hover {
 transform:translateY(5px) translateX(2px);
+border-left: 0.5em rgb(0, 229, 255) solid;
 }
