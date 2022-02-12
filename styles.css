@@ -88,7 +88,7 @@ grid-template-rows: 1fr 4fr;
     display: grid;
     grid-template-rows: 1fr 2fr;
     padding: 5px;
-    box-shadow: 0 3px 2px 2px rgb(198, 197, 197);
+    
 }
 
 .searchbar {
@@ -124,12 +124,12 @@ grid-template-rows: 1fr 4fr;
     justify-content: start;
     align-items: center;
     gap: 1.4em;
-    font-size: 1.4em;
+    font-size: 1.2em;
     
 }
 
-.right a {
-    font-size: 1.3em;
+.right a:last-child {
+    font-size: 1.6em;
     font-weight: bold;
     
 }
@@ -228,7 +228,7 @@ font-weight: bolder;
 
  .card {
     background-color: white;
-    border-left: 0.5em rgb(0, 136, 255) solid;
+    border-left: 0.5em rgb(0, 187, 255) solid;
     border-radius: 5%;
     box-shadow: 0 3px 2px 2px rgb(198, 197, 197);
     display: flex;
@@ -349,7 +349,11 @@ a {
 display: flex;
 align-items: center;
 gap: 20px;
-padding: 10px;
+padding: 20px;
+}
+
+.navbar li:hover {
+transform: scale(1.05);
 }
 
 .dashboard h1 {
@@ -375,3 +379,6 @@ h2 {
     border-bottom: solid lightgray 1px;
 }
 
+.card:hover {
+transform:translateY(5px) translateX(2px);
+}
