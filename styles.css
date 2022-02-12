@@ -327,6 +327,10 @@ font-weight: bolder;
     border-radius: 50%;
  }
 
+ .avatar:hover {
+     transform: scale(1.1);
+ }
+
  .searchbar .avatar {
      width: 3em;
      height: 3em;
