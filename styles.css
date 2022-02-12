@@ -45,7 +45,7 @@ table {
 :root {
     --dashboard-color: white;
     --main-color: hsl(214deg 32% 91%);
-    --dashboard-color: rgb(7, 130, 182);
+    --dashboard-color: rgb(7, 182, 170);
     --secondary-font-color: rgb(130, 126, 126);
 }
 
@@ -114,7 +114,7 @@ grid-template-rows: 1fr 4fr;
     border-radius: 20px;
     padding: 20px;
     flex: 1;
-    max-width: 40vw;
+    max-width: 50vw;
     background-color: var(--main-color);
     font-size: 25px;
 }
@@ -228,12 +228,12 @@ font-weight: bolder;
 
  .card {
     background-color: white;
-    border-left: 0.5em rgb(255, 183, 0) solid;
+    border-left: 0.5em rgb(0, 136, 255) solid;
     border-radius: 5%;
     box-shadow: 0 3px 2px 2px rgb(198, 197, 197);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: spa;
     padding: 2em;
     gap: 30px;
     
